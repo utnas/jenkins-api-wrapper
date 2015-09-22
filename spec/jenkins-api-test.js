@@ -1,4 +1,4 @@
-var JenkinsApi = require('../jenkinsApi').JenkinsAPI,
+var JenkinsApi = require('../jenkins').JenkinsAPI,
     config = require('../config.json'),
     chai = require('chai'),
     url = 'http://192.168.99.100:32769/';
