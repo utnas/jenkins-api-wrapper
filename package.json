@@ -1,0 +1,36 @@
+{
+  "name": "jenkins-leds",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "jest": {
+    "scriptPreprocessor": "./node_modules/babel-jest",
+    "testFileExtensions": [
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testDirectoryName": "spec"
+  },
+  "author": "Dooley Nsewolo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-jest": "*",
+    "chai": "^3.2.0",
+    "isparta": "^3.0.4",
+    "istanbul": "^0.3.20",
+    "jenkins-api": "^0.2.8",
+    "jest-cli": "*",
+    "karma": "^0.13.9",
+    "karma-mocha": "^0.2.0",
+    "mocha": "^2.3.2",
+    "rsvp": "^3.1.0"
+  },
+  "description": "Jenkins api wrapper"
+}
